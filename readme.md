@@ -106,7 +106,7 @@ Results are sorted by `trip_count` descending so the most common payment methods
 
 ## Screenshot
 
-![Terminal output](nyc_taxi_datafusion\screenshots\output_1.png)
+![output](screenshots\output_1.png)
 
 ---
 
