@@ -120,7 +120,6 @@ nyc_taxi_datafusion/
 │   └── main.rs          # All Rust source — DataFusion setup + aggregations
 ├── screenshots/
 │   └── output.png       # Terminal screenshot showing all results
-├── download_data.sh     # Automated Parquet downloader
 ├── Cargo.toml
 ├── .gitignore           # Excludes data/ and *.parquet
 └── README.md
