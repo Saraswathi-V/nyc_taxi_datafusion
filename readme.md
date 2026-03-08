@@ -1,6 +1,6 @@
 # NYC TLC Yellow Taxi 2025 — DataFusion Analysis
 
-A Rust application that reads all 12 monthly NYC TLC Yellow Taxi Parquet files for
+A Rust application that reads all 11 monthly NYC TLC Yellow Taxi Parquet files for
 2025 and runs multiple aggregations using **both** the DataFusion DataFrame API and
 DataFusion SQL, printing results as formatted tables in the terminal.
 
@@ -8,7 +8,7 @@ DataFusion SQL, printing results as formatted tables in the terminal.
 
 ## What the project does
 
-- **Downloads** all 12 monthly Parquet files for 2025 from the NYC TLC open-data endpoint and registers them as a single logical DataFusion table.
+- **Downloads** all 11 monthly Parquet files for 2025 from the NYC TLC open-data endpoint and registers them as a single logical DataFusion table.
 - **Runs Aggregation 1** — trips and revenue by pickup month — via the DataFrame API *and* via plain SQL.
 - **Runs Aggregation 2** — tip behaviour grouped by payment type — via the DataFrame API *and* via plain SQL.
 - **Prints** every result as a readable, aligned table directly in the terminal.
@@ -25,17 +25,6 @@ Data dictionary:
 ---
 
 ## How to download the data
-
-### Option A — automated script (recommended)
-
-```bash
-bash download_data.sh
-```
-
-This downloads all 12 files from the TLC CloudFront CDN into `./data/`.
-Each file is ~50–100 MB; the full year is ~800 MB.
-
-### Option B — manual
 
 Create a `data/` folder and download each file:
 
