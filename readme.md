@@ -107,6 +107,8 @@ Results are sorted by `trip_count` descending so the most common payment methods
 ## Screenshot
 
 ![output](screenshots/output_1.png)
+![output](screenshots/output_2.png)
+![output](screenshots/output_3.png)
 
 ---
 
